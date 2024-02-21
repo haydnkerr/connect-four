@@ -18,7 +18,7 @@
 /****************************      1. Universal stylings       ******************************/
 
 body {
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     background: url("./assets/desktop-background.png");
     background-size:cover;
@@ -236,7 +236,7 @@ button:hover {
 /****************************        5. Menu Interface         ****************************/
 .background {
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 5;
@@ -261,7 +261,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 90vh;
+    height: 90dvh;
     max-height: 600px;
     width: 100%;
     max-width: 450px;
